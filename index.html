@@ -12,6 +12,18 @@
 		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
 		<link rel="stylesheet" href="main.css" />
 		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+		<!-- Custom Background Gradient Override -->
+		<style>
+			/* Override top background gradient */
+			#wrapper:before {
+				background-image: linear-gradient(45deg, #0f172a, #1e3a8a) !important;
+			}
+
+			/* Keep header background transparent so the wrapper gradient shows through */
+			#header.alt {
+				background: transparent !important;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
